@@ -1,1 +1,9 @@
 node_modules
+src/assets
+
+
+
+#variables de entorno
+.env
+
+TODO.md

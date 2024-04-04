@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-const uri = 'mongodb://127.0.0.1:27017/darksouls3';
+require('dotenv').config()
+const uri = process.env.MONGODBURI;
 
 /* async function conectarDB() {
   try {
